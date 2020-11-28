@@ -15,7 +15,7 @@ askQuestions([
     '\nEnter the "LargeImageText"...\n'
 ])
 .then (answer => {
-    console.log("Connecting...");
+    console.log("\nConnecting...");
     if (answer.length !== 4) {
         // Error
         console.log("Something went wrong!");
